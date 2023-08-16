@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.carRental {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.carRentalBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.carRentalTitle {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.titlePara1 {
+    color: #2D3748;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: -0.2px;
+    margin-bottom: 5px;
+}
+
+.titlePara2 {
+    color: #718096;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    margin-top: 5px;
+}
+
+.carRentalBoxs {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.rentalBoxs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxName {
+    color: #2D3748;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.boxPara {
+    color: #718096;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.4px;
+}
+
+.carBox {
+    width: 1280px;
+    height: 550px;
+    display: flex;
+    margin: auto;
+    margin-top: 154px;
+    gap: 62px;
+}
+
+.carImg {
+    display: flex;
+    width: 590px;
+    height: 590px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 100%;
+    background: #FFF6F0;
+}
+
+.paraList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.litsItem {
+    list-style: none;
+}
+
+.itemLink {
+    text-decoration: none;
+    color: #718096;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31.32px;
+    text-transform: uppercase;
+}
+
+.color {
+    color: #2D3748;
+}
+
+.carSelect {
+    gap: 20px;
+}
+
+.carSelectBox {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.carSelectBoxs img {
+    width: 182px;
+    height: 132px;
+}
+
+.carSelectBoxs {
+    display: flex;
+    align-items: center;
+    width: 560px;
+    height: 140px;
+}
+
+.carName {
+    color: #2D3748;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31.32px;
+}
+
+.buyDay {
+    color: #718096;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.84px;
+    
+}
+
+.shaddow {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 22px 0px rgba(16, 66, 97, 0.10);
+}

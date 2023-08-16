@@ -1,11 +1,12 @@
 import img1 from "../img/logo.png"
 import img2 from "../img/login.png"
 import img3 from "../img/shop.png"
+import background from "../img/background.jpg"
 import "./header.css"
 
 export default function Header() {
     return (
-        <div className="header">
+        <div className="header photo">
             <nav className="navbar">
                 <ul className="list">
                     <img className="imgLogo" src={img1} alt="" />
@@ -25,17 +26,27 @@ export default function Header() {
                 </ul>
             </nav>
             <div className="makeRide">
-                <div className="makeBox">
-                    <p>Make Your Ride</p>
-                    <p>Rent a car to move from local hosts in 190+ countries.</p>
-                    <p>WHERE YOU FROM</p>
-                    <select>
-                        <option value="" hidden>Select Location</option>
+                    <p className="firstPara">Make Your Ride</p>
+                    <p className="para24px">Rent a car to move from local hosts in 190+ countries.</p>
+                    <p className="selectPara">WHERE YOU FROM</p>
+                    <select className="select">
+                        <option className="hiddenSelect" value="" hidden>Select Location</option>
                         <option value="">Jeep</option>
                         <option value="">Audi</option>
                         <option value="">Mercdec-benz</option>
                     </select>
-                </div>
+                    <p className="selectPara">WHERE YOU FROM</p>
+                    <select className="select">
+                        <option className="hiddenSelect" value="" hidden>Select Location</option>
+                        <option value="">Jeep</option>
+                        <option value="">Audi</option>
+                        <option value="">Mercdec-benz</option>
+                    </select>
+                    <p className="selectPara">CHOOSE DATES</p>
+                    <input className="input" type="input" name="" id="" />
+                    <button>
+                        <p>Search</p>
+                    </button>
             </div>
         </div>
     )
