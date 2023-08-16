@@ -3,11 +3,9 @@
 .header {
     width: 90%;
     margin: auto;
-    padding: 0;
+    padding: 0 auto;
     box-sizing: border-box;
-    background-image: url("../src/img/background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;  
+
 }
 
 .navbar {

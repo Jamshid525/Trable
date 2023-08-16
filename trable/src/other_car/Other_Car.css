@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.otherCar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 105px;
+}
+
+.otherCarTitle {
+    color: #2D3748;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: -0.2px;
+}
+
+.otherCarSearch {
+    width: 1100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 65px;
+
+}
+
+.otherCarSearch p {
+    margin-right: 20px;
+    color: #2D3748;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24.36px;
+    text-transform: uppercase;
+}
+
+.otherCarSearch input {
+    margin-right: 32px;
+    padding: 10px 16px 10px 45px;
+}
+
+.otherCarSearch select {
+    width: 172px;
+    margin-right: 32px;
+    padding: 10px 17px 10px 1px;
+}
+
+.optionP {
+    color: #2D3748;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.otherCarBox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+    gap: 47px;
+}
+
+.otherCarBoxs {
+    display: flex;
+    gap: 20px;
+}
+
+.carBoxs {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.carBoxs .boxImg {
+    width: 358px;
+    height: 274px;
+    flex-shrink: 0;
+    border: 0.5px solid #cecece;
+}
+
+.carName {
+    color: #2D3748;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: -0.2px;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+
+.carNum {
+    color: #718096;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+
+.starPara {
+    display: flex;
+    gap: 10px;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+
+.star {
+    display: flex;
+    width: 60px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 2.75px;
+    border-radius: 5px;
+    background: #FEF5ED;
+}
+
+.star img {
+    width: 16px;
+    height: 14px;
+}
+
+.star .starNum {
+    color: #FF992E;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+.otherCarButton {
+    display: inline-flex;
+    padding: 15px 45px;
+    align-items: center;
+    gap: 8.38px;
+    border: none;
+    border-radius: 5px;
+    background: #FEF5ED;
+    margin-top: 71px;
+}
+
+.otherCarButton p {
+    color: #FF992E;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: capitalize;
+}

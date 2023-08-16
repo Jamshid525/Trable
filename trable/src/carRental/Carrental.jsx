@@ -55,7 +55,7 @@ export default function Carrental() {
                             <div>
                                 <p className="carName">Audi 2019 A4 allroad</p>
                                 <p className="buyDay">Four Seater Car</p>
-                                <p className="buyDay">$100.00/<sub>Day</sub></p>
+                                <p className="buyDay daySum">$100.00/<sub>Day</sub></p>
                             </div>
                         </div>
                         <div className="carSelectBoxs">
@@ -63,7 +63,7 @@ export default function Carrental() {
                             <div>
                                 <p className="carName">Audi 2019 SQ</p>
                                 <p className="buyDay">Four Seater Car</p>
-                                <p className="buyDay">$4.00/<sub>Day</sub></p>
+                                <p className="buyDay daySum">$4.00/<sub>Day</sub></p>
                             </div>
                         </div>
                         <div className="carSelectBoxs">
@@ -71,7 +71,7 @@ export default function Carrental() {
                             <div>
                                 <p className="carName">BMW M6 Gran Coupé</p>
                                 <p className="buyDay">Four Seater Car</p>
-                                <p className="buyDay">$10.00/<sub>Day</sub></p>
+                                <p className="buyDay daySum">$10.00/<sub>Day</sub></p>
                             </div>
                         </div>
                     </div>
