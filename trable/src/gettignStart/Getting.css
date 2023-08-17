@@ -2,7 +2,6 @@
 
 .gettingStart {
     width: 1120px;
-    height: 735.75px;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -26,13 +25,15 @@
 
 .gettingBox {
     width: 1090px;
-    height: 97px;
+
+    gap: 20px;
 }
 
 .startedBox {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 29px 0 29px 0;
 }
 
 .title {
@@ -45,6 +46,26 @@
     line-height: 33px;
 }
 
+.buttonPara {
+    border: none;
+    background-color: transparent;
+}
+
 .none {
     display: none;
+}
+
+.faqClass {
+    margin: 4px 0 41px 0;
+}
+
+.faqClass1 {
+    color: #718096;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.2px;
+
 }

@@ -20,13 +20,13 @@ export default function Carrental() {
         },
         {
             id: 2 ,
-            name: 'Audi 2019 A4 Allroad' ,
-            price: 100 ,
+            name: 'Audi 2019 SQ' ,
+            price: 4 ,
             image: sqImg 
         },        {
             id: 3 ,
-            name: 'Audi 2019 A4 Allroad' ,
-            price: 100 ,
+            name: 'BMW M6 Gran Coupé' ,
+            price: 10 ,
             image: m6Img 
         },
     ])
