@@ -6,9 +6,33 @@ import makeImg from "../img/makeImg.png"
 import a4Img from "../img/a4Img.png"
 import sqImg from "../img/sqImg.png"
 import m6Img from "../img/m6Img.png"
+import { useState } from "react"
 
 
 export default function Carrental() {
+
+    const [imgdata, setImgData] = useState([
+        {
+            id: 1 ,
+            name: 'Audi 2019 A4 Allroad' ,
+            price: 100 ,
+            image: a4Img 
+        },
+        {
+            id: 2 ,
+            name: 'Audi 2019 A4 Allroad' ,
+            price: 100 ,
+            image: sqImg 
+        },        {
+            id: 3 ,
+            name: 'Audi 2019 A4 Allroad' ,
+            price: 100 ,
+            image: m6Img 
+        },
+    ])
+    const [pullImg , setPullImg] = useState(a4Img)
+
+
     return (
         <div className="carRental">
             <div className="carRentalBox">
@@ -39,41 +63,29 @@ export default function Carrental() {
             </div>
             <div className="carBox">
                 <div className="carImg">
-                    <img src={a4Img} alt="" />
+                    <img src={pullImg} alt="" />
                 </div>
 
                 <div className="carSelectBox">
-                        <ul className="paraList">
-                            <li className="litsItem"><a className="itemLink" href="#">Popular Cars</a></li>
-                            <li className="litsItem"><a className="itemLink color" href="#">Recent Cars</a></li>
-                        </ul>
+                    <ul className="paraList">
+                        <li className="litsItem"><a className="itemLink" href="#">Popular Cars</a></li>
+                        <li className="litsItem"><a className="itemLink color" href="#">Recent Cars</a></li>
+                    </ul>
 
 
                     <div className="carSelect">
-                        <div className="carSelectBoxs shaddow">
-                            <img src={a4Img} alt="" />
-                            <div>
-                                <p className="carName">Audi 2019 A4 allroad</p>
-                                <p className="buyDay">Four Seater Car</p>
-                                <p className="buyDay daySum">$100.00/<sub>Day</sub></p>
-                            </div>
-                        </div>
-                        <div className="carSelectBoxs">
-                            <img src={sqImg} alt="" />
-                            <div>
-                                <p className="carName">Audi 2019 SQ</p>
-                                <p className="buyDay">Four Seater Car</p>
-                                <p className="buyDay daySum">$4.00/<sub>Day</sub></p>
-                            </div>
-                        </div>
-                        <div className="carSelectBoxs">
-                            <img src={m6Img} alt="" />
-                            <div>
-                                <p className="carName">BMW M6 Gran Coupé</p>
-                                <p className="buyDay">Four Seater Car</p>
-                                <p className="buyDay daySum">$10.00/<sub>Day</sub></p>
-                            </div>
-                        </div>
+                        {
+                            imgdata.map(item => (
+                                <div className="carSelectBoxs shaddow" onClick={() => setPullImg(item.image)}>
+                                    <img src={item.image} alt="" />
+                                    <div>
+                                        <p className="carName">{item.name}</p>
+                                        <p className="buyDay">Four Seater Car</p>
+                                        <p className="buyDay daySum">${item.price}/<sub>Day</sub></p>
+                                    </div>
+                                </div>
+                            ))
+                        }
                     </div>
                 </div>
             </div>

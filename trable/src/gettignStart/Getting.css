@@ -44,3 +44,7 @@
     font-weight: 600;
     line-height: 33px;
 }
+
+.none {
+    display: none;
+}

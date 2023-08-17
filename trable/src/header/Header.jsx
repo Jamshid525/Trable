@@ -17,7 +17,7 @@ export default function Header() {
                 </ul>
                 <ul className="list">
                     <img src={img2} alt="" />
-                    <li className="listItem"><a className="itemLink" href="#">Login / Register</a></li>
+                    <li className="listItem"><a className="itemLink1" href="#">Login / Register</a></li>
                     <div className="shop">
                         <img className="imgShop" src={img3} alt="" />
                         <p>0</p>
