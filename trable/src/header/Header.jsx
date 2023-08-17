@@ -1,7 +1,6 @@
 import img1 from "../img/logo.png"
 import img2 from "../img/login.png"
 import img3 from "../img/shop.png"
-import background from "../img/background.jpg"
 import "./header.css"
 
 export default function Header() {
@@ -10,11 +9,11 @@ export default function Header() {
             <nav className="navbar">
                 <ul className="list">
                     <img className="imgLogo" src={img1} alt="" />
-                    <li className="listItem"><a className="itemLink" href="#">Home</a></li>
-                    <li className="listItem"><a className="itemLink" href="#">Car Listing</a></li>
-                    <li className="listItem"><a className="itemLink" href="#">About</a></li>
-                    <li className="listItem"><a className="itemLink" href="#">News</a></li>
-                    <li className="listItem"><a className="itemLink" href="#">Contact us</a></li>
+                    <li className="listItem"><a className="itemLink1" href="#">Home</a></li>
+                    <li className="listItem"><a className="itemLink1" href="#">Car Listing</a></li>
+                    <li className="listItem"><a className="itemLink1" href="#">About</a></li>
+                    <li className="listItem"><a className="itemLink1" href="#">News</a></li>
+                    <li className="listItem"><a className="itemLink1" href="#">Contact us</a></li>
                 </ul>
                 <ul className="list">
                     <img src={img2} alt="" />

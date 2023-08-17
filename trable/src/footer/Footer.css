@@ -3,7 +3,7 @@
 .footer {
     display: flex;
     flex-direction: column;
-    margin-top: 147px;
+    margin-top: 41px;
 }
 
 .footerNeedNum {
@@ -46,6 +46,8 @@
     align-items: flex-start;
     gap: 30px;
     background: #212020;
+    height: 200px;
+    align-items: center;
 }
 
 .footerList {
@@ -53,8 +55,6 @@
     flex-direction: column;
     width: 262.5px;
     height: 67.19px;
-
-
 }
 
 .listItem {
@@ -156,6 +156,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5px
-    ;
+    gap: 5px;
 }

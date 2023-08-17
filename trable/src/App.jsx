@@ -5,6 +5,7 @@ import Carrental from './carRental/Carrental'
 import Other_Car from './other_car/Other_Car'
 import ClientSays from './clientSays/ClientSays'
 import Footer from './footer/Footer'
+import Getting from './gettignStart/Getting'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +17,7 @@ function App() {
         <Carrental />
         <Other_Car />
         <ClientSays />
-
+        <Getting/>
         <Footer />
       </div>
     </>
