@@ -45,6 +45,10 @@
     margin-right: 30px;
 }
 
+.resImg{
+    display: none;
+}
+
 .shop {
     display: flex;
     width: 49.63px;
@@ -156,4 +160,32 @@
     font-weight: 500;
     line-height: 24px;
     text-transform: uppercase;
+}
+
+@media   (max-width: 768px) {
+    .header {
+        display: flex;
+        max-width: 100%;
+        height: 981px;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .listItem{
+        display: none;
+    }
+
+    .resImg{
+        display: inline;
+        width: 44px;
+        height: 36px;
+    }
+
+    .makeRide{
+        width: 350px;
+        height: 641px;
+        margin-top: 317px;
+        margin-bottom: 200px;
+    }
 }

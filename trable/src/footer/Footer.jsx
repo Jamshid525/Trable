@@ -9,25 +9,27 @@ import youtube from "../img/youtub.png"
 
 export default function Footer() {
     return (
+
+
         <div className="footer">
             <div className="footerNeedNum">
                 <p className="footerNeed">Need help renting online ? </p>
                 <p className="footerNum">(855) 962-3621</p>
             </div>
             <div className="footerLink">
-                <ul className="footerList">
-                    <li className="listItem"><a className="itemLink" href="#">Car Listing</a></li>
-                    <li className="listItem"><a className="itemLink" href="#">Home</a></li>
+                <ul className="footerList3">
+                    <li className="listItem3"><a className="itemLink3" href="#">Car Listing</a></li>
+                    <li className="listItem3"><a className="itemLink3" href="#">Home</a></li>
                 </ul>
                 <ul className="footerList">
-                    <li className="listItem"><a className="itemLink" href="#">About</a></li>
-                    <li className="listItem"><a className="itemLink" href="#">Contact us</a></li>
-                    <li className="listItem"><a className="itemLink" href="#">My account</a></li>
+                    <li className="listItem3"><a className="itemLink3" href="#">About</a></li>
+                    <li className="listItem3"><a className="itemLink3" href="#">Contact us</a></li>
+                    <li className="listItem3"><a className="itemLink3" href="#">My account</a></li>
                 </ul>
                 <ul className="footerList">
-                    <li className="listItem"><a className="itemLink" href="#">Cart</a></li>
-                    <li className="listItem"><a className="itemLink" href="#">Checkout</a></li>
-                    <li className="listItem"><a className="itemLink" href="#">Shop</a></li>
+                    <li className="listItem3"><a className="itemLink3" href="#">Cart</a></li>
+                    <li className="listItem3"><a className="itemLink3" href="#">Checkout</a></li>
+                    <li className="listItem3"><a className="itemLink3" href="#">Shop</a></li>
                 </ul>
                 <div className="sendLink">
                     <p className="linkPara">Sign up for get our newsletter</p>

@@ -64,6 +64,10 @@
     height: 60px;
 }
 
+.imgSay {
+    display: none;
+}
+
 .clientUser {
     display: flex;
 
@@ -153,7 +157,7 @@
 
 .findPara {
     margin-top: 52px;
-    
+
     margin-left: 135px;
     color: #718096;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
@@ -171,7 +175,7 @@
     display: flex;
     width: 530px;
     height: 76px;
-  
+
     gap: 20px;
 }
 
@@ -179,4 +183,91 @@
     width: 175px;
     height: 59px;
     flex-shrink: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .clientSays {
+        max-width: 768px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .say {
+        display: none;
+    }
+
+    .imgSay {
+        display: flex;
+        margin-top: 60px;
+        justify-content: space-between;
+        gap: 75px;
+    }
+
+    .imgSay button {
+        border: none;
+        background-color: transparent;
+    }
+
+    .clientUser {
+        display: flex;
+        max-width: 768px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 300px;
+    }
+
+    .imgUser {
+        max-width: 690px;
+        height: 800px;
+    }
+
+    .userBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .userBoxPara {
+        text-align: center;
+    }
+
+    .userInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .userNum {
+        width: 340px;
+        height: 26px;
+        padding: 17.5px 25px;
+        border-radius: 10px;
+        border: 1px solid #a7a7a7;
+        background: #FFF;
+        box-shadow: 0px 0px 100px 10px rgba(16, 66, 97, 0.15);
+    }
+
+    .button {
+        width: 400px;
+        height: 56px;
+        padding: 17.5px 25px;
+        border-radius: 10px;
+    }
+
+    .findPara{
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+
+    .clientApp{
+        margin-top: 40px;
+        margin-left: 130px;
+    }
 }

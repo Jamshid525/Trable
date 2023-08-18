@@ -34,7 +34,7 @@ export default function Getting() {
             decrement: "-"
         },
     ])
-    
+
 
     const [faqClass, setfaqClass] = useState('faqText none')
 
@@ -42,24 +42,24 @@ export default function Getting() {
         <div className="gettingStart">
             <p className="gattingTitle">Getting Started</p>
             <div className="faqs">
-                    {
-                        getFaqs.map(item => (
-                <div className="gettingBox">
+                {
+                    getFaqs.map(item => (
+                        <div className="gettingBox">
 
-                    <div className="startedBox">
-                        <p className="title">{item.name}</p>
-                        <button className="buttonPara">
-                            <p className="title" onClick={() => faqClass == 'faqText none' ? setfaqClass('faqText') : setfaqClass('faqText none')}>{faqClass == 'faqText none' ? (item.incerement = '+') :  (item.decrement = '-')}</p>
-                        </button>
-                    </div>
-                        <div className={faqClass}>
-                            <p className="faqClass1">
-                               {item.text}
-                            </p>
+                            <div className="startedBox">
+                                <p className="title">{item.name}</p>
+                                <button className="buttonPara title" onClick={() => faqClass == 'faqText none' ? setfaqClass('faqText') : setfaqClass('faqText none')}>
+                                    {faqClass == 'faqText none' ? item.incerement : item.decrement }
+                                </button>
+                            </div>
+                            <div className={faqClass}>
+                                <p className="faqClass1">
+                                    {item.text}
+                                </p>
+                            </div>
                         </div>
-                </div>
-                        ))
-                    }
+                    ))
+                }
 
             </div>
         </div>

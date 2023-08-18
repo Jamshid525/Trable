@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 .footer {
+    width: 100%;
     display: flex;
     flex-direction: column;
+    margin: auto;
     margin-top: 41px;
 }
 
@@ -41,27 +43,29 @@
 }
 
 .footerLink {
+
     display: flex;
-    padding: 48px 375px 18px 375px;
-    align-items: flex-start;
+    width: 100%;
     gap: 30px;
     background: #212020;
     height: 200px;
     align-items: center;
+ 
 }
 
-.footerList {
+.footerList3 {
     display: flex;
     flex-direction: column;
     width: 262.5px;
     height: 67.19px;
+    margin-left: 30px;
 }
 
-.listItem {
+.listItem3 {
     list-style: none;
 }
 
-.itemLink {
+.itemLink3 {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.50);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
@@ -121,15 +125,15 @@
 }
 
 .footerEnd {
+    width: 100%;
     display: flex;
-    padding: 24px 390px;
     align-items: center;
     justify-content: space-between;
 
     background: #191919;
 }
 
-.endItem {
+.endItem1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -152,9 +156,56 @@
     line-height: 21px;
 }
 
-.endItem1{
+.endItem {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        width: 768px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footerLink {
+        width: 768px;
+        height: 332px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: 30px;
+       
+        padding-top: 48px;
+        padding-bottom: 48px;
+        padding-left: -10px;
+        padding-right: -100px;
+    }
+
+    .footerList3 {
+        width: 738px;
+    }
+
+    .sendLink {
+        width: 748px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .sendItem input {
+        display: flex;
+        padding: 14px 16px 15px 17px;
+        align-items: flex-start;
+    }
+
+    .footerEnd{
+        width: 708px;
+        padding: 20px 30px;
+    }
 }

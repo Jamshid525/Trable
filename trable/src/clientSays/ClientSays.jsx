@@ -1,6 +1,7 @@
 import "./ClientSays.css"
 
 import star from "../img/star.png"
+import star2 from "../img/star2.png"
 import seline from "../img/girl_seline.png"
 import cto from "../img/boy_cto.png"
 import ceo from "../img/boy_ceo.png"
@@ -8,12 +9,16 @@ import phone from "../img/phone__location.png"
 import appStore from "../img/app-store.png"
 import googlePlay from "../img/google-play.png"
 
+import leftArrow from "../img/leftArrow.png"
+import rightArrow from "../img/rightArrow.png"
+
+
 export default function ClientSays() {
     return (
         <div className="clientSays">
             <p className="clientSaysTitle">What Client Says</p>
             <div className="clientCommment">
-                <div className="commentBoxs">
+                <div className="commentBoxs say">
                     <p>Great theme and great support! We use it for party
                         <br />equipment rentals and it works fine.</p>
                     <div className="commentImg">
@@ -31,7 +36,7 @@ export default function ClientSays() {
                         </div>
                     </div>
                 </div>
-                <div className="commentBoxs">
+                <div className="commentBoxs say">
                     <p>Great theme and great support! We use it for party
                         <br />equipment rentals and it works fine.</p>
                     <div className="commentImg">
@@ -62,14 +67,24 @@ export default function ClientSays() {
                                 <img src={star} alt="" />
                                 <img src={star} alt="" />
                                 <img src={star} alt="" />
-                                <img src={star} alt="" />
+                                <img src={star2} alt="" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+                <div className="imgSay">
+                    <button>
+
+                    <img src={leftArrow} alt="" />
+                    </button>
+                    <button>
+
+                    <img src={rightArrow} alt="" />
+                    </button>
+                </div>
             <div className="clientUser">
-                <img src={phone} alt="" />
+                <img className="imgUser" src={phone} alt="" />
                 <div className="userBox">
                     <p className="userBoxPara">Turbo App Available in
                         <br /> Android & iOS</p>

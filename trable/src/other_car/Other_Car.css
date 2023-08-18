@@ -170,3 +170,37 @@
     line-height: 24px;
     text-transform: capitalize;
 }
+
+@media screen and (max-width: 768px) {
+    .otherCar {
+        margin-top: 290px;
+        width: 768px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .otherCarSearch {
+        width: 768px;
+        height: 294px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .otherCarSearch input {
+        width: 60%;
+        height: 60px;
+    }
+
+    .otherCarSearch select {
+        width: 60%;
+        height: 60px;
+    }
+
+    .otherCarBoxs{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+}

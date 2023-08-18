@@ -1,6 +1,7 @@
 import img1 from "../img/logo.png"
 import img2 from "../img/login.png"
 import img3 from "../img/shop.png"
+import menu from "../img/menu.png"
 import "./header.css"
 
 export default function Header() {
@@ -22,6 +23,7 @@ export default function Header() {
                         <img className="imgShop" src={img3} alt="" />
                         <p>0</p>
                     </div>
+                    <img className="resImg" src={menu} alt="" />
                 </ul>
             </nav>
             <div className="makeRide">

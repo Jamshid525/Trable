@@ -62,9 +62,7 @@ export default function Carrental() {
                 </div>
             </div>
             <div className="carBox">
-                <div className="carImg">
-                    <img src={pullImg} alt="" />
-                </div>
+                
 
                 <div className="carSelectBox">
                     <ul className="paraList">
@@ -87,6 +85,9 @@ export default function Carrental() {
                             ))
                         }
                     </div>
+                </div>
+                <div className="carImg">
+                    <img src={pullImg} alt="" />
                 </div>
             </div>
         </div>
