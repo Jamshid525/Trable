@@ -18,7 +18,7 @@ export default function ClientSays() {
         <div className="clientSays">
             <p className="clientSaysTitle">What Client Says</p>
             <div className="clientCommment">
-                <div className="commentBoxs say">
+                <div className="commentBoxs">
                     <p>Great theme and great support! We use it for party
                         <br />equipment rentals and it works fine.</p>
                     <div className="commentImg">
@@ -73,16 +73,6 @@ export default function ClientSays() {
                     </div>
                 </div>
             </div>
-                <div className="imgSay">
-                    <button>
-
-                    <img src={leftArrow} alt="" />
-                    </button>
-                    <button>
-
-                    <img src={rightArrow} alt="" />
-                    </button>
-                </div>
             <div className="clientUser">
                 <img className="imgUser" src={phone} alt="" />
                 <div className="userBox">

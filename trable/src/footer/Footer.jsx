@@ -21,12 +21,12 @@ export default function Footer() {
                     <li className="listItem3"><a className="itemLink3" href="#">Car Listing</a></li>
                     <li className="listItem3"><a className="itemLink3" href="#">Home</a></li>
                 </ul>
-                <ul className="footerList">
+                <ul className="footerList3">
                     <li className="listItem3"><a className="itemLink3" href="#">About</a></li>
                     <li className="listItem3"><a className="itemLink3" href="#">Contact us</a></li>
                     <li className="listItem3"><a className="itemLink3" href="#">My account</a></li>
                 </ul>
-                <ul className="footerList">
+                <ul className="footerList3">
                     <li className="listItem3"><a className="itemLink3" href="#">Cart</a></li>
                     <li className="listItem3"><a className="itemLink3" href="#">Checkout</a></li>
                     <li className="listItem3"><a className="itemLink3" href="#">Shop</a></li>

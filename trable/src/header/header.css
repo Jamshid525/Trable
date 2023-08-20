@@ -16,6 +16,10 @@
 
 }
 
+.hidNavbar {
+    display: none;
+}
+
 .list {
     display: flex;
     gap: 27.7px;
@@ -45,7 +49,7 @@
     margin-right: 30px;
 }
 
-.resImg{
+.resImg {
     display: none;
 }
 
@@ -162,30 +166,85 @@
     text-transform: uppercase;
 }
 
-@media   (max-width: 768px) {
+@media (max-width: 768px) {
     .header {
         display: flex;
         max-width: 100%;
         height: 981px;
         flex-direction: column;
         align-items: center;
-        
+
     }
-    
-    .listItem{
+
+    .hidNavbar {
+        display: flex;
+        flex-direction: column;
+        margin-right: -585px;
+        align-items: flex-end;
+        height: 300px;
+    }
+
+
+
+    .listIte {
+        list-style: none;
+    }
+
+    .listButton {
+        background-color: transparent;
+        border: none;
+    }
+
+    .btnpara {
+        color: #2D3748;
+        text-align: center;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+        font-family: Roboto;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 33px;  
+    }
+
+    .itemLin1 {
+        text-decoration: none;
+        color: #2D3748;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+        font-family: Roboto;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    .list1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+
+        padding: 10px 20px 20px 20px;
+    }
+
+    .listItem {
         display: none;
     }
 
-    .resImg{
+    .resImg {
         display: inline;
         width: 44px;
         height: 36px;
     }
 
-    .makeRide{
+    .makeRide {
         width: 350px;
         height: 641px;
-        margin-top: 317px;
+        margin-top: 350px;
         margin-bottom: 200px;
+    }
+
+    .hidden {
+        display: none;
     }
 }

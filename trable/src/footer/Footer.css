@@ -4,6 +4,8 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center ;
     margin: auto;
     margin-top: 41px;
 }
@@ -126,10 +128,11 @@
 
 .footerEnd {
     width: 100%;
+    height: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
+    justify-content: center;
+    gap: 200px;
     background: #191919;
 }
 
@@ -160,6 +163,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
     gap: 5px;
 }
 
@@ -175,19 +179,17 @@
         width: 768px;
         height: 332px;
         display: flex;
-        flex-direction: column;
+
         align-items: flex-start;
         justify-content: flex-start;
-        margin-left: 30px;
-       
-        padding-top: 48px;
-        padding-bottom: 48px;
-        padding-left: -10px;
-        padding-right: -100px;
+
+        
     }
 
     .footerList3 {
         width: 738px;
+        margin-top: 50px;
+
     }
 
     .sendLink {
@@ -195,6 +197,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        margin-top: 50px;
 
     }
 
@@ -205,7 +208,8 @@
     }
 
     .footerEnd{
-        width: 708px;
-        padding: 20px 30px;
+        width: 768px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 }

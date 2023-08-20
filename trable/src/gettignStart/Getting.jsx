@@ -1,5 +1,6 @@
 import { useState } from "react"
 import "./Getting.css"
+import GettingCard from "./GettingCard"
 
 export default function Getting() {
 
@@ -36,7 +37,7 @@ export default function Getting() {
     ])
 
 
-    const [faqClass, setfaqClass] = useState('faqText none')
+    const [faqClass, setfaqClass] = useState(null)
 
     return (
         <div className="gettingStart">
@@ -44,20 +45,7 @@ export default function Getting() {
             <div className="faqs">
                 {
                     getFaqs.map(item => (
-                        <div className="gettingBox">
-
-                            <div className="startedBox">
-                                <p className="title">{item.name}</p>
-                                <button className="buttonPara title" onClick={() => faqClass == 'faqText none' ? setfaqClass('faqText') : setfaqClass('faqText none')}>
-                                    {faqClass == 'faqText none' ? item.incerement : item.decrement }
-                                </button>
-                            </div>
-                            <div className={faqClass}>
-                                <p className="faqClass1">
-                                    {item.text}
-                                </p>
-                            </div>
-                        </div>
+                        <GettingCard item={item} faqClass={faqClass} setfaqClass={setfaqClass}/>
                     ))
                 }
 
